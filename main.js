@@ -17,11 +17,11 @@ for (let i = 0; i < 5; i++) {
 btn.onclick = function () {
     const btnClass = btn.getAttribute('class');
     if (btnClass === 'dark') {
-        btnClass.setAttribute('class', 'light');
+        btn.setAttribute('class', 'light');
         btn.textContent = 'Lighten';
         overlay.style.backgroundColor = rgba(0, 0, 0, 0.5);
     } else {
-        btnClass.setAttribute('class','dark');
+        btn.setAttribute('class','dark');
         btn.textContent = 'Darken';
         overlay.style.backgroundColor = rgba(0, 0, 0, 0);
     }
