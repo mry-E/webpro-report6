@@ -21,7 +21,7 @@ btn.onclick = function () {
         btn.textContent = 'Lighten';
         overlay.style.backgroundColor = rgba(0, 0, 0, 0.5);
     } else {
-        btnClass.setAttribute('dark');
+        btnClass.setAttribute('class','dark');
         btn.textContent = 'Darken';
         overlay.style.backgroundColor = rgba(0, 0, 0, 0);
     }
